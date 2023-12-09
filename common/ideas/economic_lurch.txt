@@ -1,0 +1,95 @@
+ideas = {
+	country = {
+		great_depression_3 = {
+			picture = usa_great_depression
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.25
+				consumer_goods_factor = 0.175
+				conscription_factor = -0.2
+				join_faction_tension = 0.20
+				local_resources_factor = -0.1
+			}
+		}
+	}
+
+	country = {
+		lurch_new_deal_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = new_deal
+
+			modifier = {
+				industrial_capacity_factory = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_buildings_factor = 0.05
+			}			
+		}
+	}
+
+	country = {
+		lurch_new_deal_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = new_deal
+
+			modifier = {
+				industrial_capacity_factory = 0.10
+				production_factory_efficiency_gain_factor = 0.15
+				production_speed_buildings_factor = 0.10
+				trade_laws_cost_factor = -0.15
+			}			
+		}
+	}
+
+	country = {
+		lurch_new_deal_3 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = wilkies_new_deal
+
+			modifier = {
+				industrial_capacity_factory = 0.10
+				production_factory_efficiency_gain_factor = 0.15
+				production_speed_buildings_factor = 0.10
+				trade_laws_cost_factor = -0.15
+			}			
+		}
+	}

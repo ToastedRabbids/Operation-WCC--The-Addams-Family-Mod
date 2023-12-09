@@ -1,0 +1,414 @@
+characters={
+	ADD_Gomez_Addams={
+		name="Gomez Addams"
+		portraits={
+			army={
+				small=GFX_idea_Gomez
+			}
+			civilian={
+				large=GFX_Portrait_Gomez
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist offensive_doctrine inspirational_leader politically_connected organizer media_personality trait_reckless }
+			skill=5
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = gomez_addams
+			allowed  = {
+				original_tag  = ADD
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = ADD_Gomez_Addams
+					}
+				}
+			}
+			traits  = {
+				propaganda_expert
+			}
+		}
+	}
+	ADD_Morticia_Addams={
+		name="Morticia Addams"
+		portraits={
+			army={
+				small=GFX_idea_Morticia
+			}
+			civilian={
+				large=GFX_Portrait_Morticia
+			}
+		}
+		field_marshal={
+			traits={ defensive_doctrine inflexible_strategist organisational_leader politically_connected organizer media_personality trait_reckless }
+			skill=5
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = morticia_addams
+			allowed  = {
+				original_tag  = ADD
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = ADD_Morticia_Addams
+					}
+				}
+			}
+			traits  = {
+				popular_figurehead
+			}
+		}
+	}
+	ADD_Wednesday_Addams={
+		name="Wednesday Addams"
+		portraits={
+			army={
+				small=GFX_idea_Wednesday
+			}
+			civilian={
+				large=GFX_Portrait_Wednesday
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist politically_connected media_personality organizer harsh_leader trickster }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=3
+			legacy_id=-1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = wednesday_addams
+			allowed  = {
+				original_tag  = ADD
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = ADD_Wednesday_Addams
+					}
+				}
+			}
+			traits  = {
+				silent_workhorse 
+			}
+		}
+	}
+
+    ADD_Pugsley_Addams={
+        name="Pugsley Addams"
+        portraits={
+            army={
+                small=GFX_idea_Pugsley
+            }
+            army={
+                large=GFX_Portrait_Pugsley
+            }
+        }
+        corps_commander={
+            traits={ inflexible_strategist bearer_of_artillery trait_reckless   }
+            skill=4
+            attack_skill=4
+            defense_skill=4
+            planning_skill=3
+            logistics_skill=4
+            legacy_id=-1
+        }
+		advisor={
+			slot = high_command
+			idea_token = Pugsley 
+			ledger = army
+			allowed = {
+				original_tag = ADD
+			}
+			traits = {
+				army_infantry_2
+			}
+				cost = 100
+		}
+    }
+    ADD_Pugsley_Theorist={
+        name="Pugsley Addams"
+        portraits={
+            army={
+                small=GFX_idea_Pugsley
+            }
+        }
+		advisor = {
+			slot = theorist
+			idea_token = Pugsley_Theorist
+				allowed = {
+					original_tag  = ADD
+		 		}
+			#available = {
+			#has_completed_focus = ADD_
+			#}
+			traits = { superior_firepower_expert }
+			ledger = army
+			cost = 50
+		}
+	}
+    ADD_Fester_Addams={
+        name="Fester Addams"
+        portraits={
+            army={
+                small=GFX_idea_Fester
+            }
+            army={
+                large=GFX_Portrait_Fester
+            }
+        }
+        corps_commander={
+            traits={ trickster panzer_leader armor_officer trait_reckless   }
+            skill=5
+            attack_skill=5
+            defense_skill=4
+            planning_skill=3
+            logistics_skill=3
+            legacy_id=-1
+        }
+		advisor={
+			slot = high_command
+			idea_token = Fester
+			ledger = army
+			allowed = {
+				original_tag = ADD
+			}
+				traits = {
+				army_armored_2
+				}
+					cost = 100
+		}
+    }
+    ADD_Fester_Theorist={
+        name="Fester Addams"
+        portraits={
+            army={
+                small=GFX_idea_Fester
+            }
+        }
+		advisor = {
+			slot = theorist
+			idea_token = Fester_Theorist
+				allowed = {
+					original_tag  = ADD
+		 		}
+			#available = {
+			#has_completed_focus = ADD_
+			#}
+			traits = { mobile_warfare_expert }
+			ledger = army
+			cost = 50
+		}
+	}
+    ADD_Thing={
+        name="Thing"
+        portraits={
+            army={
+                small=GFX_idea_Thing
+            }
+            army={
+                large=GFX_Portrait_Thing
+            }
+        }
+        field_marshal={
+            traits={ organizer engineer_officer trait_engineer    }
+            skill=5
+            attack_skill=3
+            defense_skill=3
+            planning_skill=5
+            logistics_skill=5
+            legacy_id=-1
+        }
+		advisor={
+			slot = army_chief
+			idea_token = Thing
+			allowed = {
+				original_tag = ADD
+			}
+			traits = {
+				army_chief_thing
+			}
+			cost = 100
+		}
+    }
+    ADD_Enid_Sinclair={
+        name="Enid Sinclair"
+        portraits={
+            army={
+                small=GFX_idea_Enid
+            }
+            army={
+                large=GFX_Portrait_Enid
+            }
+        }
+        corps_commander={
+            traits={ ranger infantry_leader infantry_officer   }
+            skill=4
+            attack_skill=4
+            defense_skill=5
+            planning_skill=3
+            logistics_skill=4
+            legacy_id=-1
+        }
+    }
+
+	ADD_Cousin_Itt={
+		name="Cousin Itt"
+		portraits={
+            army={
+                small=GFX_idea_Cousin_Itt
+            }
+            army={
+                large=GFX_Portrait_Cousin_Itt
+            }
+		}
+		corps_commander={
+			traits={ cavalry_officer cavalry_leader politically_connected }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	ADD_Lurch={
+		name="Lurch"
+		portraits={
+            army={
+                small=GFX_idea_Lurch
+            }
+            army={
+                large=GFX_Portrait_Lurch
+            }
+		}
+		corps_commander={
+			traits={ old_guard politically_connected commando war_hero }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lurch
+			allowed  = {
+				original_tag  = ADD
+			}
+			traits  = {
+				economist
+			}
+		}
+	}
+
+ADD_Sheriff_Galpin={
+	name="Sheriff Donovan Galpin"
+	portraits={
+		army={
+			small=GFX_idea_Sheriff_Galpin
+		}
+		army={
+			large=GFX_Portrait_Sheriff_Galpin
+		}
+	}
+	corps_commander={
+		traits={  urban_assault_specialist  }
+		skill=3
+		attack_skill=3
+		defense_skill=4
+		planning_skill=3
+		logistics_skill=3
+		legacy_id=-1
+	}
+	advisor={
+		slot = army_chief
+		idea_token = Sheriff
+		allowed = {
+			original_tag = ADD
+		}
+		traits = {
+			army_chief_sheriff
+		}
+		cost = 100
+	}
+}
+
+ADD_Bianca_Barclay={
+	name="Bianca Barclay"
+	portraits={
+		army={
+			small=GFX_idea_Bianca
+		}
+		army={
+			large=GFX_Portrait_Bianca_Barclay
+		}
+	}
+	navy_leader={
+		traits={ navy_career_officer seawolf naval_lineage bold spotter }
+		skill=4
+		attack_skill=5
+		defense_skill=3
+		maneuvering_skill=5
+		coordination_skill=5
+		legacy_id=-1
+	}
+}
+
+ADD_Eugene_Ottinger={
+	name="Eugene Ottinger"
+	portraits={
+		army={
+			small=GFX_idea_Eugene
+		}
+		army={
+			large=GFX_Portrait_Eugene_Ottinger
+		}
+	}
+	navy_leader={
+		traits={  air_controller aviation_enthusiast caustic_personality blockade_runner }
+		skill=4
+		attack_skill=4
+		defense_skill=3
+		maneuvering_skill=4
+		coordination_skill=5
+		legacy_id=-1
+	}
+}
+
+	ADD_carnot_wheeler={
+		name= "Carnot Wheeler"
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_carnot_wheeler
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			traits={ financial_expert }
+			expire="1953.1.1.12"
+			id=-1
+		}
+	}

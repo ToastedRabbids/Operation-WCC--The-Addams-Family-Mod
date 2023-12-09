@@ -1,0 +1,53 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_Portrait_Gomez"
+		texturefile = "gfx/leaders/ADD/Portrait_ADD_Gomez.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Morticia"
+		texturefile = "gfx/leaders/ADD/portrait_ADD_Morticia.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Wednesday"
+		texturefile = "gfx/leaders/ADD/portrait_ADD_Wednesday.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Fester"
+		texturefile = "gfx/leaders/ADD/Portrait_ADD_Fester.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Pugsley"
+		texturefile = "gfx/leaders/ADD/portrait_ADD_Pugsley.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Enid"
+		texturefile = "gfx/leaders/ADD/portrait_ADD_Enid.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Thing"
+		texturefile = "gfx/leaders/ADD/portrait_ADD_Thing.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Lurch"
+		texturefile = "gfx/leaders/ADD/portrait_ADD_Lurch.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Cousin_Itt"
+		texturefile = "gfx/leaders/ADD/portrait_ADD_Cousin_Itt.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Sheriff_Galpin"
+		texturefile = "gfx/leaders/ADD/portrait_ADD_Sheriff_Galpin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Bianca_Barclay"
+		texturefile = "gfx/leaders/ADD/portrait_ADD_Bianca_Barclay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Eugene_Ottinger"
+		texturefile = "gfx/leaders/ADD/portrait_ADD_Eugene_Ottinger.dds"
+	}
+

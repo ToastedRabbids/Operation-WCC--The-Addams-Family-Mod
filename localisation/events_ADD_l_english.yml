@@ -1,0 +1,22 @@
+﻿l_english:
+ADD.1.t:0 "A New Administrator"
+ADD.1.d:0 "The Council is considering choosing a new Administrator. Who shall it be?"
+ADD.1.a:0 "Egyptian is chosen"
+ADD.1.b:0 "Jackvick is chosen"
+ADD.1.c:0 "Let's Keep Albert"
+
+ADD.2.t:0 "Choosing an Addams"
+ADD.2.d:0 "After much discussion, debate, murdering, being blown up, and hands chopped off. Congress has decided who shall lead the new Republic! (Position name yet to be decided) And it is..."
+ADD.2.a:0 "Has the planet gone mad? I seek justice! Denied. I shall not submit! I shall conquer! I shall rise! I have seen evil!"
+ADD.2.b:0 "I wish I had more time to seek out the dark forces and join their hellish crusade!"
+ADD.2.c:0 "Woe to the Republic!"
+
+ADD.3.t:0 "Thing's Military Review"
+ADD.3.d:0 "Since its inception, the Macabre Military has been more than a small defensive force comprising rebellious Outcasts and Normies fighting against a corrupt and failing Federal Government. Now, as the Winds Change, the U.S. is in a falling crisis, and it is only a matter of time before War arrives on our doorstep. The Macabre Military must adapt to a new area, and Thing is tasked with deciding which Doctrine to go down—Pugsley's artillery reform plan. Or Fester's new Blitzkrieg method. What shall we do?"
+ADD.3.a:0 "Lets go With Pugsley!"
+ADD.3.b:0 "Fester is the Best!"
+
+ADD.4.t:0 "To Logistics and or to Planning?"
+ADD.4.d:0 "During our recent command meeting, an officer proposed creating a more cohesive planning structure. However, another officer disagreed, saying we must focus on better supplying our troops. The Council voted in a tie and decided on a coin flip, with heads being planning and tails being supply. And it flips..."
+ADD.4.a:0 "Heads!"
+ADD.4.b:0 "Tails!"

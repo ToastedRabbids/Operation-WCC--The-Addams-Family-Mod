@@ -1,0 +1,38 @@
+
+state={
+	id=359
+	name="STATE_359"
+	manpower = 4041332
+	
+	state_category = metropolis
+
+	resources={
+		steel=24 # was: 20.000
+		aluminium=17.000
+		chromium=5
+	}
+
+	history={
+		owner = ADD
+		victory_points = {
+			6882 25 
+		}
+		buildings = {
+			infrastructure = 4 #was: 7
+			arms_factory = 1
+			industrial_complex = 7
+			dockyard = 1
+			air_base = 4
+
+		}
+		add_core_of = ADD
+		add_claim_by = USA
+	}
+
+	provinces={
+		3693 3863 6882 9801 9864 11740 11782 11900 
+	}
+	
+
+	local_supplies=15.0 
+}

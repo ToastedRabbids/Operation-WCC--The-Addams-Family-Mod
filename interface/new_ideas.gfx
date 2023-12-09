@@ -1,0 +1,9 @@
+spriteTypes = {	
+
+
+
+	SpriteType = {
+		name = "GFX_idea_usa_pentagon"
+		texturefile = "gfx/interface/ideas/idea_usa_pentagon.dds"
+	}
+

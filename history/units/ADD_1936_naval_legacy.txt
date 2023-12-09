@@ -1,0 +1,98 @@
+units = {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Royal Macabre Navy"
+		naval_base = 6732 # New England
+		task_force = {				
+			name = "Raven Squadron"			
+			location = 6732 # New England
+			### Destroyer Squadron 12 ###
+			ship = { name = "KSS Brown" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ADD version_name = "Sinclair Class" } } }		
+			ship = { name = "KSS Griffin" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ADD version_name = "Sinclair Class" } } }
+			ship = { name = "KSS Swanson" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ADD version_name = "Sinclair Class" } } }		
+			ship = { name = "KSS Quagmire" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ADD version_name = "Sinclair Class" } } }
+			# 21st Destroyer Division				
+			ship = { name = "KSS Nick" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ADD version_name = "Sinclair Class" } } }		
+			ship = { name = "KSS Rochelle" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ADD version_name = "Sinclair Class" } } }		
+			ship = { name = "KSS Ellis" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ADD version_name = "Sinclair Class" } } }		
+			ship = { name = "KSS Coach" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ADD version_name = "Sinclair Class" } } }		
+			# 27th Destroyer Division				
+			ship = { name = "KSS Lebowski" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ADD version_name = "Sinclair Class" } } }		
+			ship = { name = "KSS Schrute" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ADD version_name = "Sinclair Class" } } }		
+			ship = { name = "KSS Halpert" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ADD version_name = "Sinclair Class" } } }
+			ship = { name = "KSS Curtis" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ADD version_name = "Sinclair Class" } } }					
+		}
+		task_force = {					
+			name = "DeathSkull Squadron"		
+			location = 6732 # New London, CT
+			# 1st Experimental Division			
+			ship = { name = "KSS S-20" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+			ship = { name = "KSS S-22" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+			# 4th Submarine Division			
+			ship = { name = "KSS R-2" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+			ship = { name = "KSS R-4" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+			ship = { name = "KSS R-10" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+			ship = { name = "KSS R-11" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+			ship = { name = "KSS R-13" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+			ship = { name = "KSS R-14" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+			# 8th Submarine Division			
+			ship = { name = "KSS S-21" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+			ship = { name = "KSS S-24" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+			ship = { name = "KSS S-25" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+			ship = { name = "KSS S-26" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+			ship = { name = "KSS S-29" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+			ship = { name = "KSS S-30" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ADD version_name = "Barclay Class" } } }
+		}
+		task_force = {
+			name = "Itt International Cruisers"		
+			location = 6732 # New London, CT
+			# Light Cruisers
+			ship = { name = "KSS Holland" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ADD version_name = "Itt Class" } } }
+			ship = { name = "KSS York" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ADD version_name = "Itt Class" } } }
+			ship = { name = "KSS Berlin" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ADD version_name = "Itt Class" } } }
+			ship = { name = "KSS Chicago" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ADD version_name = "Itt Class" } } }
+			ship = { name = "KSS Moscow" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ADD version_name = "Itt Class" } } }
+			ship = { name = "KSS Milwaukee" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ADD version_name = "Itt Class" } } }
+			ship = { name = "KSS Mexico" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ADD version_name = "Itt Class" } } }
+			ship = { name = "KSS Paris" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ADD version_name = "Itt Class" } } }
+		}
+		task_force = {				
+			name = "Battle Force"
+			location = 6732 # San Diego
+			### Battleship Division 1 ###			
+			ship = { name = "KSS Morticia" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.25 equipment = { battleship_1 = { amount = 1 owner = ADD version_name = "Frump Class" } } }				
+			ship = { name = "KSS Wednesday" definition = battleship start_experience_factor = 0.25 equipment = { battleship_1 = { amount = 1 owner = ADD version_name = "Frump Class" } } }				
+			ship = { name = "KSS Pugsley" definition = battleship start_experience_factor = 0.25 equipment = { battleship_1 = { amount = 1 owner = ADD version_name = "Frump Class" } } }		
+			ship = { name = "KSS Gomez" definition = carrier start_experience_factor = 0.25 equipment = { carrier_1 = { amount = 1 owner = ADD version_name = "Addams Class" } } 	
+		}		
+	}	
+}
+}
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = light_cruiser_2
+			creator = "ADD"
+			version_name = "Itt Class"
+		}
+		name = "KSS Rome" 
+		requested_factories = 4
+		progress = 0.60
+		amount = 1
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "ADD"
+			version_name = "Sinclair Class"
+		}
+		name = "KSS Pewterschmidt" 
+		requested_factories = 3
+		progress = 0.60
+		amount = 1
+	}
+}

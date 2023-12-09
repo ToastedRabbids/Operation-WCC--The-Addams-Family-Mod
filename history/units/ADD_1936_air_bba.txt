@@ -1,0 +1,50 @@
+air_wings = {
+	### 1 Macabre Air Force - New England
+	358 = {
+		# 7th Bombardment Group 
+		# 19th Bombardment Group 
+		medium_plane_airframe_1 = {
+			owner = "ADD" 
+			amount = 100
+			version_name = "F-5 Furious Thunderboom"
+		}
+		# 17th Attack Group 
+		small_plane_cas_airframe_1 = {
+			owner = "ADD" 
+			amount = 100
+			version_name = "M-7 Morbid Nightshade"
+		}
+		small_plane_airframe_1 =  {
+			owner = "ADD" 
+			amount = 100
+			version_name = "A-3 Anemic Phantomwing"
+		}
+		medium_plane_airframe_1 =  {
+			owner = "ADD" 
+			amount = 100
+			version_name = "P-1 Putrid Gremlin"
+		}
+	}
+	"KSS Gomez" = {
+		cv_small_plane_airframe_0 =  { owner = "ADD" amount = 10 version_name = "W-2 Woeful Raven" } # historical: 36
+		cv_small_plane_airframe_0 =  { owner = "ADD" amount = 10 version_name = "W-2 Woeful Raven" } # historical: 36
+		cv_small_plane_cas_airframe_0 =  { owner = "ADD" amount = 10 version_name = "G-4 Ghastly Vulture" } # historical: 15
+		cv_small_plane_cas_airframe_0 =  { owner = "ADD" amount = 10 version_name = "G-4 Ghastly Vulture" } # historical: 15
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ADD" amount = 10 version_name = "L-6 Lurid Osprey" } # historical: 12		
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ADD" amount = 10 version_name = "L-6 Lurid Osprey" } # historical: 12			
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_1
+			creator = "ADD" 
+			version_name = "A-3 Anemic Phantomwing"
+		}
+		requested_factories = 1
+		progress = 0.60
+		efficiency = 100
+	}
+
+}

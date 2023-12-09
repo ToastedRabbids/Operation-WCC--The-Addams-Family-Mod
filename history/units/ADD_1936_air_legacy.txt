@@ -1,0 +1,45 @@
+air_wings = {
+	### 1 Macabre Air Force - New England
+	358 = {
+		# 7th Bombardment Group 
+		# 19th Bombardment Group 
+		tac_bomber_equipment_0 = {
+			owner = "ADD" 
+			amount = 100
+		}
+		# 17th Attack Group 
+		CAS_equipment_1 = {
+			owner = "ADD" 
+			amount = 100
+		}
+		fighter_equipment_0 =  {
+			owner = "ADD" 
+			amount = 100
+		}
+		nav_bomber_equipment_1 =  {
+			owner = "ADD" 
+			amount = 100
+		}
+	}
+	"KSS Gomez" = {
+		cv_fighter_equipment_0 =  { owner = "ADD" amount = 10 } # historical: 36
+		cv_fighter_equipment_0 =  { owner = "ADD" amount = 10 } # historical: 36
+		cv_CAS_equipment_1 =  { owner = "ADD" amount = 10 } # historical: 15
+		cv_CAS_equipment_1 =  { owner = "ADD" amount = 10 } # historical: 15
+		cv_nav_bomber_equipment_1 =  { owner = "ADD" amount = 10 } # historical: 12		
+		cv_nav_bomber_equipment_1 =  { owner = "ADD" amount = 10 } # historical: 12			
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "ADD" 
+		}
+		requested_factories = 1
+		progress = 0.60
+		efficiency = 100
+	}
+
+}

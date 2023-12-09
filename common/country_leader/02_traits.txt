@@ -1,0 +1,201 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+@experience_gain_low = 0.03
+@experience_gain_medium = 0.06
+@experience_gain_high = 0.08
+
+@chief_experience_gain_low = 0.20
+@chief_experience_gain_medium = 0.30
+@chief_experience_gain_high = 0.40
+
+leader_traits = {
+
+gomez_addams = {
+random = no
+	war_support_factor = 0.10
+	production_speed_buildings_factor = 0.1
+	equipment_bonus = {
+	train_equipment = {
+		build_cost_ic = -0.1
+	}
+	}
+}
+
+mortica_addams = {
+random = no
+	research_speed_factor = 0.10	
+	stability_factor = 0.10
+	compliance_growth = 0.10
+
+}
+
+wednesday_addams = {
+random = no
+	stability_factor = -0.15
+	political_power_factor = 0.20
+	resistance_target = -0.10
+	army_attack_factor = 0.10
+}
+
+army_chief_thing = {
+random = no
+	sprite = 5
+	planning_speed = 0.10
+	army_speed_factor = 0.05
+	experience_gain_army = @chief_experience_gain_medium
+
+	command_cap = @tier2
+
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 2
+			command_power < @tier2
+		}
+	}
+}
+
+army_chief_sheriff = {
+	random = no
+		sprite = 5
+		army_defence_factor = 0.1
+		army_org_factor = 0.05
+		experience_gain_army = @chief_experience_gain_medium
+	
+		command_cap = @tier2
+	
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				command_power < @tier2
+			}
+		}
+	}
+
+the_spectre = {
+random = no
+	research_speed_factor = 0.10	
+	stability_factor = 0.10
+}
+
+provisional_leader = {
+	political_power_factor = 0.05
+	stability_factor = -0.15
+}
+
+the_land = {
+random = no
+	army_speed_factor = 0.10	
+	war_support_factor = 0.10
+}
+
+the_marigi = {
+random = no
+	army_speed_factor = 0.10	
+	army_attack_factor = 0.10
+	consumer_goods_factor = -0.10
+	political_power_factor = 0.10	
+	ai_focus_aggressive_factor = 0.25
+}
+
+the_miser = {
+random = no
+	stability_factor = -0.10
+	political_power_factor = 0.15
+	naval_doctrine_cost_factor = -0.10
+	communism_drift = 0.1
+}
+
+the_rabbid = {
+random = no
+	research_speed_factor = 0.10	
+	army_morale_factor = 0.10
+}
+
+the_schizo = {
+	army_speed_factor = 0.10	
+	army_attack_factor = 0.10
+	consumer_goods_factor = -0.10
+	political_power_factor = -0.10	
+	war_support_factor = -0.10
+	stability_factor = -0.10
+	ai_focus_aggressive_factor = 0.25
+}
+
+scp_106 = {
+random = no
+	army_speed_factor = 0.10	
+	army_attack_factor = 0.10
+	consumer_goods_factor = -0.10
+	political_power_factor = 0.10	
+	war_support_factor = 0.10
+	stability_factor = 0.10
+	ai_focus_aggressive_factor = 0.30
+	ai_focus_war_production_factor = 0.30
+	ai_desired_divisions_factor = 0.90
+}
+
+the_boer = {
+random = no
+	army_attack_factor = 0.10
+	political_power_factor = 0.10
+	army_speed_factor = 0.10	
+	consumer_goods_factor = -0.10
+	stability_factor = 0.10
+	conscription_factor = 0.10
+	ai_focus_aggressive_factor = 0.25
+	ai_focus_war_production_factor = 0.25
+}
+
+the_red_right_hand = {
+sprite = 13
+random = no
+	production_speed_buildings_factor = 0.15
+	trade_laws_cost_factor = -0.33
+	economy_cost_factor = -0.33
+	
+}
+
+redactedism_based = {
+random = no
+	political_power_factor = 0.10
+	stability_factor = 0.05
+	trade_laws_cost_factor = -0.30
+	economy_cost_factor = -0.30
+}
+
+maiden_potok = {
+random = no
+sprite = 13
+	stability_factor = -0.15
+	political_power_factor = -0.10
+	war_support_factor = 0.15
+	conscription = 0.05
+	fascism_drift = 0.1
+	training_time_factor = -0.1
+	root_out_resistance_effectiveness_factor = 0.1
+}
+
+egy_scro = {
+random = no
+	research_speed_factor = 0.15
+	democratic_drift = 0.1
+	stability_factor = 0.05
+}
+
+jack_vick = {
+random = no
+	production_speed_buildings_factor = 0.15
+	fascism_drift = 0.1
+	war_support_factor = 0.05
+}
+
+hunter_potok = {
+random = no
+	army_attack_factor = 0.15
+	neutrality_drift = 0.1
+	political_power_factor = 0.05
+}

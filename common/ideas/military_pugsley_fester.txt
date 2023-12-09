@@ -1,0 +1,360 @@
+ideas = {
+
+	country = {
+		revolutionary_macabre_guard = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = chi_army_corruption2
+
+			modifier = {
+
+			}
+		}
+	}
+
+	country = {
+		pugsley_superior_firepower_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_artillery_regiments
+
+			modifier = {
+				army_defence_factor = 0.05
+				army_org_factor = 0.05
+				army_artillery_attack_factor = 0.05
+				army_artillery_defence_factor = 0.05
+			}
+			equipment_bonus = {
+				artillery_equipment = {
+					soft_attack = 0.05
+					breakthrough = 0.05
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+	}
+
+	country = {
+		pugsley_superior_firepower_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_artillery_regiments
+
+			modifier = {
+				army_defence_factor = 0.10
+				army_org_factor = 0.10
+				army_artillery_attack_factor = 0.10
+				army_artillery_defence_factor = 0.10
+			}
+			equipment_bonus = {
+				artillery_equipment = {
+					soft_attack = 0.10
+					breakthrough = 0.10
+					build_cost_ic = -0.10
+					instant = yes
+				}
+			}
+		}
+	}
+
+	country = {
+		pugsley_superior_firepower_3 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_artillery_regiments
+
+			modifier = {
+				army_defence_factor = 0.10
+				army_org_factor = 0.10
+				army_artillery_attack_factor = 0.10
+				army_artillery_defence_factor = 0.10
+			}
+			equipment_bonus = {
+				artillery_equipment = {
+					soft_attack = 0.10
+					breakthrough = 0.10
+					build_cost_ic = -0.10
+					instant = yes
+				}
+				anti_tank_equipment = {
+					build_cost_ic = -0.10
+					breakthrough = 0.10
+					instant = yes
+				}
+			}
+		}
+	}
+
+	country = {
+		pugsley_superior_firepower_4 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_artillery_regiments
+
+			modifier = {
+				army_defence_factor = 0.10
+				army_org_factor = 0.10
+				army_artillery_attack_factor = 0.10
+				army_artillery_defence_factor = 0.10
+			}
+			equipment_bonus = {
+				artillery_equipment = {
+					soft_attack = 0.10
+					breakthrough = 0.10
+					build_cost_ic = -0.10
+					instant = yes
+				}
+				anti_air_equipment = {
+					build_cost_ic = -0.10
+					breakthrough = 0.10
+					instant = yes
+				}
+			}
+		}
+	}
+
+
+	country = {
+		fester_warfare_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_acquire_tanks
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_speed_factor = 0.05
+				army_armor_attack_factor = 0.05
+				army_armor_speed_factor = 0.05
+			}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.05
+					maximum_speed = 0.05
+					armor_value = 0.05
+					instant = yes
+				}
+			}
+		}
+	}
+
+	country = {
+		fester_warfare_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_acquire_tanks
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_speed_factor = 0.05
+				army_armor_attack_factor = 0.05
+				army_armor_speed_factor = 0.05
+			}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.05
+					maximum_speed = 0.05
+					armor_value = 0.05
+					instant = yes
+				}
+				mechanized_equipment = {
+					build_cost_ic = -0.05
+					maximum_speed = 0.10
+					instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = -0.05
+					maximum_speed = 0.10
+					instant = yes
+				}
+			}
+		}
+	}
+
+	country = {
+		fester_warfare_3 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_acquire_tanks
+
+			modifier = {
+				army_attack_factor = 0.1
+				army_speed_factor = 0.1
+				army_armor_attack_factor = 0.1
+				army_armor_speed_factor = 0.1
+			}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.1
+					maximum_speed = 0.1
+					armor_value = 0.1
+					instant = yes
+				}
+				mechanized_equipment = {
+					build_cost_ic = -0.05
+					maximum_speed = 0.15
+					instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = -0.05
+					maximum_speed = 0.15
+					instant = yes
+				}
+			}
+		}
+	}
+
+	country = {
+		ADD_Pentagram = {	
+			picture = usa_pentagon
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				max_command_power = 20
+				command_power_gain_mult = 0.05
+			}
+		}
+	}
+
+	country = {
+		more_gun = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ast_volunteer_defence_corps
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.10
+					soft_attack = 0.10
+				}
+			}			
+		}
+	}
+
+	country = {
+		ADD_Supply = {	
+			picture = generic_supply_lines
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				attrition = -0.1
+				supply_consumption_factor = -0.1
+			}
+		}
+	}
+
+	country = {
+		ADD_Planning = {	
+			picture = CZE_planning_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = 0.1
+				max_planning = 0.1
+			}
+		}
+	}
